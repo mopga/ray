@@ -483,3 +483,5 @@ RAY_CONFIG(std::string, event_level, "warning")
 
 /// Whether to avoid scheduling cpu requests on gpu nodes
 RAY_CONFIG(bool, scheduler_avoid_gpu_nodes, true)
+
+RAY_CONFIG(bool, scheduler_old, true)
